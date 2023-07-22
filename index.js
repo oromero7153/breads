@@ -9,9 +9,9 @@ const app = express()
 // ROUTES
 app.get('/', (req, res) => {
   res.send('Welcome to an Awesome App about Breads!')
-})
+});
 
 // LISTEN
 app.listen(PORT, () => {
   console.log('listening on port', PORT);
-})
+});
